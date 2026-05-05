@@ -1,0 +1,2 @@
+const config = { content: ['./app/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'], theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'] }, boxShadow: { glow: '0 0 40px rgba(99,102,241,.22)' }, animation: { float: 'float 8s ease-in-out infinite' }, keyframes: { float: { '0%,100%': { transform:'translateY(0)'}, '50%': { transform:'translateY(-10px)'} } } } }, plugins: [] };
+export default config;
